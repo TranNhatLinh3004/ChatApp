@@ -1,0 +1,33 @@
+@media screen and (max-width: 500px) {
+     ::-webkit-scrollbar {
+        width: 0px;
+        /* Độ rộng của thanh cuộn */
+    }
+     ::-webkit-scrollbar-track {
+        background: transparent;
+        /* Màu nền của track */
+    }
+    .section__chats {
+        position: relative;
+        /* top: 100px; */
+        width: 100%;
+        /* margin-top: 200px; */
+    }
+    .box__chats {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* background-color: rgb(128, 102, 151); */
+    }
+    .box__chats .title__chats {
+        font-size: 25px;
+        color: aquamarine;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .box__users {
+        /* background-color: brown; */
+        margin: 0;
+        padding: 0;
+    }
+}

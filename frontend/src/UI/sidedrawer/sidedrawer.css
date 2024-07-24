@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) {
+    .profile__notification {
+        position: relative;
+        right: 20px;
+    }
+    .profile__notification>button:nth-child(2) {
+        background-color: transparent;
+        /* width: 100px; */
+    }
+    .box__header {
+        margin-bottom: 100px;
+    }
+}

@@ -1,0 +1,106 @@
+.section__header {
+  /* background-color: aquamarine; */
+  position: absolute;
+  width: 100%;
+}
+
+.box__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(32 34 37);
+}
+
+.section__chats {
+  position: absolute;
+  width: 30%;
+  height: 92%;
+  background-color: rgb(32 34 37);
+  left: 0;
+  top: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  /* Độ rộng của thanh cuộn */
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(24, 25, 28);
+  /* Màu nền của track */
+}
+
+.section__chats p {
+  /* width: 40%; */
+}
+
+.section__chats .box__chats {
+  width: 100%;
+  display: flex;
+  /* background-color: aquamarine; */
+  position: absolute;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__chats .box__chats p {
+  color: var(--text-color);
+  z-index: 10;
+}
+
+.box__users {
+  background-color: brown;
+}
+
+@media screen and (max-width: 500px) {
+  .box__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 140px;
+    right: 0;
+    top: 0;
+    left: 0;
+    /* flex-direction: column; */
+  }
+  .section__chats {
+    /* top: -5%; */
+  }
+  .box__header p {
+    font-size: 20px;
+    width: 30%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-bottom: 25px;
+  }
+  .box__header .logo {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(17, 173, 121);
+  }
+  .box__chats p {
+    font-size: 50%;
+  }
+  .profile__notification {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+    /* background-color: antiquewhite; */
+  }
+  .btn__search i {
+    position: absolute;
+    right: -300%;
+    top: 40%;
+    /* color: red; */
+  }
+  /* .css-eap3tc span {
+    position: relative;
+    top: -100px;
+  } */
+}
